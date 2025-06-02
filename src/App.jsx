@@ -1,11 +1,12 @@
 import './App.css'
+import Banner from './Components/Banner'
 
 function App() {
 
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <section className='bg-maincl min-h-screen'>
+      <Banner></Banner>
+    </section>
   )
 }
 
