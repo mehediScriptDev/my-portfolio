@@ -1,33 +1,38 @@
 import image from "./images/profile1.jpg";
+import 'animate.css';
+import { Wave } from "react-animated-text";
 import { FaFacebook, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { BsDownload } from "react-icons/bs";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
     <section className="pt-3">
       <div className="flex justify-center items-center">
         <img
-          className="lg:w-52 lg:h-52 w-40 h-40 border-textcl border-2 object-cover rounded-full"
+          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl border-gray-500 border-2 object-cover rounded-full"
           src={image}
           alt="myimage"
         />
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-white text-center text-4xl font-bold">Mehedi</h1>
-        <h1 className=" text-center text-2xl font-bold text-textcl">
-          Junior Frontend Developer
+        <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">Mehedi</h1>
+        <h1 className="animate__animated animate__swing text-center text-2xl font-bold text-textcl">
+          Junior Frontend Developer{" "}
+          {/* <Wave effectChange={3.0} text="EXAMPLE TEXT" /> */}
         </h1>
-        <div className="text-white text-center text-xs lg:text-sm max-w-2xl">
-            <Typewriter
-  options={{
-    strings: ['As a dedicated full-stack developer, I craft scalable, user-centric applications from front to back. I specialize in building sleek, responsive interfaces using React, Next.js and powerful backends with Node.js, Express, and MongoDB. Passionate about clean code, performance optimization, and continuous learning, Im always ready to bring ideas to life. Lets collaborate and create something extraordinary!'],
-    autoStart: true,
-    loop: true,
-    delay: 30,
-  }}
-/>
+        <div className="text-gray-500 font-semibold text-center text-xs lg:text-sm max-w-2xl">
+          <Typewriter
+            options={{
+              strings: [
+                "I'm a passionate frontend developer skilled in crafting responsive, elegant user interfaces with React, Tailwind CSS, and JavaScript. With a strong foundation in mern-stack principles, I focus on clean code, intuitive UX, and performance optimization. I'm dedicated to building meaningful digital experiences, always learning, and ready to collaborate. Let’s bring your ideas to life efficiently, creatively, and beautifully.",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 30,
+            }}
+          />
         </div>
       </div>
       <div>
@@ -64,7 +69,9 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-            <button className="btn btn-md px-5 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">Resume <BsDownload /></button>
+          <button className="btn btn-md px-5 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
+            Resume <BsDownload />
+          </button>
         </div>
       </div>
     </section>
