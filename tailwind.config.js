@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
     colors:{
-        maincl: '#0d1117',
+        maincl: '#0e0f1c',
       }
     },
   },
