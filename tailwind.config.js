@@ -8,6 +8,7 @@ export default {
     extend: {
     colors:{
         maincl: '#0e0f1c',
+        textcl: '#ff0019',
       }
     },
   },
