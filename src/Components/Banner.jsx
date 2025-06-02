@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { BsDownload } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
-
+import FuzzyText from './FuzzyText';
 const Banner = () => {
   return (
     <section className="pt-3 min-h-screen flex flex-col justify-center items-center">
@@ -20,9 +20,17 @@ const Banner = () => {
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
         <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">Mehedi</h1>
         <h1 className="animate__animated animate__swing text-center text-2xl font-bold text-textcl">
-          Junior Frontend Developer{" "}
+          {" "}
           {/* <Wave effectChange={3.0} text="EXAMPLE TEXT" /> */}
+          <FuzzyText 
+  baseIntensity={0.01} 
+  
+ 
+>
+  Junior Frontend Developer
+</FuzzyText>
         </h1>
+        
         <div className="text-gray-500 min-h-[100px] lg:min-h-[90px] font-semibold text-center text-xs lg:text-sm max-w-2xl">
           <Typewriter
           onInit={(typewriter) => {
@@ -77,9 +85,11 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          <button className="btn btn-md px-5 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
+          
+  <button className="btn btn-md px-5 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
             Resume <BsDownload />
           </button>
+
         </div>
       </div>
       <div className="flex justify-center w-full items-center mt-3 ">
