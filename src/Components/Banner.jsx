@@ -1,9 +1,11 @@
-import React from 'react';
+import image from './images/mine.png'
 
 const Banner = () => {
     return (
-        <section>
-            <h1 className='text-white text-center'>hello there</h1>
+        <section className='pt-3'>
+            <div className='flex justify-center items-center'>
+                <img className='lg:w-72 lg:h-72 w-40 h-40  object-cover rounded-full' src={image} alt="myimage" />
+            </div>
         </section>
     );
 };
