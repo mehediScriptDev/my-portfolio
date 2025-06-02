@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 import FuzzyText from './FuzzyText';
 const Banner = () => {
   return (
-    <section className="pt-3 min-h-screen flex flex-col justify-center items-center">
+    <section className="pt-3 min-h-screen bg-maincl overflow-hidden flex flex-col justify-center items-center">
       <div className="flex justify-center py-10 lg:py-3 items-center">
         <img
           className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl border-gray-500 border-2 object-cover rounded-full"
@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
         <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">Mehedi</h1>
-        <h1 className="animate__animated animate__swing text-center text-2xl font-bold text-textcl">
+        <h1 className="animate__animated animate__swing text-center py-2 text-2xl font-bold text-textcl">
           {" "}
           {/* <Wave effectChange={3.0} text="EXAMPLE TEXT" /> */}
           <FuzzyText 
