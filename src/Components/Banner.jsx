@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 import { BsDownload } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import FuzzyText from './FuzzyText';
-import { MdEmail } from "react-icons/md";
+import { TbBrandGmail } from "react-icons/tb";
 const Banner = () => {
   return (
-    <section className="pt-3 min-h-screen pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center">
-      <div className="flex justify-center py-10 lg:py-3 items-center">
+    <section className="pt-1 min-h-screen pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center">
+      <div className="flex justify-center py-9 lg:py-3 items-center">
         <img
           className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl border-gray-500 border-2 object-cover rounded-full"
           src={image}
@@ -76,6 +76,12 @@ const Banner = () => {
             >
               <FaX></FaX>
             </Link>
+            <a
+              href="mailto:mehediscriptdev@gmail.com"
+              className="bg-littlebg hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+            >
+              <TbBrandGmail />
+            </a>
             <Link
               to="https://www.facebook.com/mehediScript404"
               target="_blank"
@@ -83,18 +89,12 @@ const Banner = () => {
             >
               <FaFacebook></FaFacebook>
             </Link>
-            <Link
-              to="https://www.facebook.com/mehediScript404"
-              target="_blank"
-              className="bg-littlebg hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
-            >
-              <MdEmail />
-            </Link>
+            
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
           
-  <button className="btn btn-md px-5 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
+  <button className="btn btn-md px-5 mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
             Resume <BsDownload />
           </button>
 
