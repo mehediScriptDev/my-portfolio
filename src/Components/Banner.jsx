@@ -3,7 +3,7 @@ import "animate.css";
 import ShinyText from './ShinyText';
 import { FaRegHandPointer } from "react-icons/fa6";
 import { FaFacebook, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { BsDownload } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import FuzzyText from "./FuzzyText";
@@ -11,6 +11,7 @@ import { TbBrandGmail } from "react-icons/tb";
 
 
 const Banner = () => {
+  const navigate = useNavigate();
   return (
     <section className="pt-1 min-h-screen pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center">
       <div className="flex justify-center py-9 lg:py-3 items-center">
@@ -97,12 +98,12 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-center w-full items-center mt-3 ">
-        <button className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent group">
+      <Link to={'/portfolio'} className="flex justify-center w-full items-center mt-3 ">
+        <btn  className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent group">
           <ShinyText text="View Portfolio " disabled={false} speed={3} className='opacity-20 group-hover:opacity-100 transition-opacity duration-300' />
           <FaRegHandPointer className="animate-pulse group-hover:text-[16px] duration-200" />
-        </button>
-      </div>
+        </btn>
+      </Link>
     </section>
   );
 };
