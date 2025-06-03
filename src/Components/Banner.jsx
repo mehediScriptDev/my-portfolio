@@ -8,15 +8,20 @@ import { BsDownload } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import FuzzyText from "./FuzzyText";
 import { TbBrandGmail } from "react-icons/tb";
+
+
 const Banner = () => {
   return (
     <section className="pt-1 min-h-screen pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center">
       <div className="flex justify-center py-9 lg:py-3 items-center">
-        <img
+        
+        
+  <img
           className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl  border-gray-500 border-2  object-cover rounded-full"
           src={image}
           alt="myimage"
         />
+
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
         <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">
@@ -93,9 +98,9 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex justify-center w-full items-center mt-3 ">
-        <button className="btn w-full sm:w-full rounded-none hover:text-white text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent">
-          View Portfolio{" "}
-          <FaRegHandPointer className="animate-pulse" />
+        <button className="btn w-full sm:w-full rounded-none hover:text-white text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent group">
+          <ShinyText text="View Portfolio " disabled={false} speed={3} className='opacity-20 group-hover:opacity-100 transition-opacity duration-300' />
+          <FaRegHandPointer className="animate-pulse group-hover:text-[16px] duration-200" />
         </button>
       </div>
     </section>
