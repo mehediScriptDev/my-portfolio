@@ -1,12 +1,12 @@
-import { href, Link } from "react-router-dom";
+import { href, Link, Outlet } from "react-router-dom";
 import mine from "./images/profile1.jpg";
 import GooeyNav from './GooeyNav'
 
 const Home = () => {
     const items = [
-      { label: "Skills", href: "/skills" },
-      { label: "Projects", href: "/projects" },
-      { label: "Contact", href: "/contact" },
+      { label: "Skills", href: "/portfolio" },
+      { label: "Projects", href: "/portfolio/projects" },
+      { label: "Contact", href: "/portfolio/contact" },
     ];
   return (
     <div className="text-white  overflow-hidden bg-maincl ">
@@ -24,7 +24,7 @@ const Home = () => {
   />
 </div>
       </div>
-
+<Outlet></Outlet>
     </div>
   );
 };
