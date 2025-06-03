@@ -98,7 +98,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex justify-center w-full items-center mt-3 ">
-        <button className="btn w-full sm:w-full rounded-none hover:text-white text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent group">
+        <button className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent group">
           <ShinyText text="View Portfolio " disabled={false} speed={3} className='opacity-20 group-hover:opacity-100 transition-opacity duration-300' />
           <FaRegHandPointer className="animate-pulse group-hover:text-[16px] duration-200" />
         </button>
