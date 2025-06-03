@@ -55,7 +55,7 @@ const Banner = () => {
       </div>
       <div>
         <div className="mt-1">
-          <div className="flex justify-center items-center gap-2 md:gap-3 mt-3">
+          <div className="flex justify-center pb-3 items-center gap-2 md:gap-3 mt-3">
             <Link
               to="https://github.com/mehediScriptDev"
               target="_blank"
