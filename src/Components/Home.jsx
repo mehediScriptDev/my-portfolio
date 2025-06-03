@@ -1,16 +1,17 @@
-import { Link } from "react-router-dom";
+import { href, Link } from "react-router-dom";
 import mine from "./images/profile1.jpg";
 import GooeyNav from './GooeyNav'
 
 const Home = () => {
     const items = [
-      { label: "Skills", href: "#" },
+      { label: "Skills", href: "/hello" },
       { label: "Projects", href: "#" },
       { label: "Contact", href: "#" },
     ];
   return (
-    <div className="text-white flex justify-center overflow-hidden overflow-y-hidden overflow-x-hidden bg-maincl ">
-      <div className="px-3 py-2" style={{ height: '600px', position: 'relative' }}>
+    <div className="text-white  overflow-hidden bg-maincl ">
+      <div className="border-b-2 flex justify-center border-white">
+        <div className="px-3 py-2  relative" >
   <GooeyNav
     items={items}
     particleCount={15}
@@ -22,6 +23,7 @@ const Home = () => {
     colors={[1, 2, 3, 1, 2, 3, 1, 4]}
   />
 </div>
+      </div>
 
     </div>
   );

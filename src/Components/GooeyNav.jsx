@@ -1,4 +1,5 @@
 import { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const GooeyNav = ({
   items,
@@ -307,13 +308,13 @@ const GooeyNav = ({
                   }`}
                 onClick={(e) => handleClick(e, index)}
               >
-                <a
-                  href={item.href}
+                <Link
+                  to={item.href}
                   onKeyDown={(e) => handleKeyDown(e, index)}
                   className="outline-none"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
