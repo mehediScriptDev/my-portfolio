@@ -1,53 +1,48 @@
 import image from "./images/profile1.jpg";
-import 'animate.css';
-import { Wave } from "react-animated-text";
+import "animate.css";
+import ShinyText from './ShinyText';
 import { FaRegHandPointer } from "react-icons/fa6";
 import { FaFacebook, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { BsDownload } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
-import FuzzyText from './FuzzyText';
+import FuzzyText from "./FuzzyText";
 import { TbBrandGmail } from "react-icons/tb";
 const Banner = () => {
   return (
     <section className="pt-1 min-h-screen pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center">
       <div className="flex justify-center py-9 lg:py-3 items-center">
         <img
-          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl border-gray-500 border-2 object-cover rounded-full"
+          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl  border-gray-500 border-2  object-cover rounded-full"
           src={image}
           alt="myimage"
         />
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">Mehedi</h1>
+        <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">
+          Mehedi
+        </h1>
         <h1 className="animate__animated animate__swing text-center py-2 text-2xl font-bold text-textcl">
           {" "}
           {/* <Wave effectChange={3.0} text="EXAMPLE TEXT" /> */}
-          <FuzzyText 
-  baseIntensity={0.01} 
-  
- 
->
-  Junior Frontend Developer
-</FuzzyText>
+          <FuzzyText baseIntensity={0.01}>Junior Frontend Developer</FuzzyText>
         </h1>
-        
+
         <div className="text-gray-500 min-h-[100px] lg:min-h-[90px] font-semibold text-center text-xs lg:text-sm max-w-2xl">
+          
           <Typewriter
-          onInit={(typewriter) => {
-    typewriter
-      .typeString(
-        "I'm a passionate frontend developer skilled in crafting responsive, elegant user interfaces with React, Tailwind CSS, and JavaScript. With a strong foundation in mern-stack principles, I focus on clean code, intuitive UX, and performance optimization. I'm dedicated to building meaningful digital experiences, always learning, and ready to collaborate. Let’s bring your ideas to life efficiently, creatively, and beautifully."
-      )
-      .start();
-  }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  "I'm a passionate frontend developer skilled in crafting responsive, elegant user interfaces with React, Tailwind CSS, and JavaScript. With a strong foundation in mern-stack principles, I focus on clean code, intuitive UX, and performance optimization. I'm dedicated to building meaningful digital experiences, always learning, and ready to collaborate. Let’s bring your ideas to life efficiently, creatively, and beautifully."
+                )
+                .start();
+            }}
             options={{
-              
               autoStart: true,
               loop: false,
               delay: 1,
               deleteSpeed: 0,
-             
             }}
           />
         </div>
@@ -89,20 +84,18 @@ const Banner = () => {
             >
               <FaFacebook></FaFacebook>
             </Link>
-            
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          
-  <button className="btn btn-md px-5 mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
+          <button className="btn btn-md px-5 mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-textcl font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
             Resume <BsDownload />
           </button>
-
         </div>
       </div>
       <div className="flex justify-center w-full items-center mt-3 ">
         <button className="btn w-full sm:w-full rounded-none hover:text-white text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent">
-           View Portfolio <FaRegHandPointer className="animate__animated animate_pulse" />
+          View Portfolio{" "}
+          <FaRegHandPointer className="animate-pulse" />
         </button>
       </div>
     </section>
