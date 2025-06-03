@@ -1,16 +1,30 @@
-import React from 'react';
+import { Link } from "react-router-dom";
+import mine from "./images/profile1.jpg";
+import GooeyNav from './GooeyNav'
 
 const Home = () => {
-    return (
-        <div className=' text-white grid gap-3 grid-cols-12'>
-            <div className='col-span-2  min-h-screen w-full'>
-                this is navbar
-            </div>
-            <div className='col-span-10  w-full min-h-screen'>
-                hellothere
-            </div>
-        </div>
-    );
+    const items = [
+      { label: "Skills", href: "#" },
+      { label: "Projects", href: "#" },
+      { label: "Contact", href: "#" },
+    ];
+  return (
+    <div className="text-white flex justify-center overflow-hidden overflow-y-hidden overflow-x-hidden bg-maincl ">
+      <div className="px-3 py-2" style={{ height: '600px', position: 'relative' }}>
+  <GooeyNav
+    items={items}
+    particleCount={15}
+    particleDistances={[90, 10]}
+    particleR={100}
+    initialActiveIndex={0}
+    animationTime={600}
+    timeVariance={300}
+    colors={[1, 2, 3, 1, 2, 3, 1, 4]}
+  />
+</div>
+
+    </div>
+  );
 };
 
 export default Home;
