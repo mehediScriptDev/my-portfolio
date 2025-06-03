@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Error from './Components/Error.jsx';
 import Home from './Components/Home.jsx';
+import Skills from './Components/Skills.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +21,12 @@ const router = createBrowserRouter([
   },
   {
     path:'/portfolio',
-    element: <Home></Home>
-  }
+    element: <Home></Home>,
+  },
+  {
+    path:'/skills',
+    element: <Skills></Skills>
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(

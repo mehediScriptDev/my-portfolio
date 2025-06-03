@@ -4,9 +4,9 @@ import GooeyNav from './GooeyNav'
 
 const Home = () => {
     const items = [
-      { label: "Skills", href: "/hello" },
-      { label: "Projects", href: "#" },
-      { label: "Contact", href: "#" },
+      { label: "Skills", href: "/skills" },
+      { label: "Projects", href: "/projects" },
+      { label: "Contact", href: "/contact" },
     ];
   return (
     <div className="text-white  overflow-hidden bg-maincl ">
