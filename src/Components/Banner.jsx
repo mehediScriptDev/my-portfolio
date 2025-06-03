@@ -7,9 +7,10 @@ import { Link } from "react-router-dom";
 import { BsDownload } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import FuzzyText from './FuzzyText';
+import { MdEmail } from "react-icons/md";
 const Banner = () => {
   return (
-    <section className="pt-3 min-h-screen bg-maincl overflow-hidden flex flex-col justify-center items-center">
+    <section className="pt-3 min-h-screen pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center">
       <div className="flex justify-center py-10 lg:py-3 items-center">
         <img
           className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl border-gray-500 border-2 object-cover rounded-full"
@@ -82,6 +83,13 @@ const Banner = () => {
             >
               <FaFacebook></FaFacebook>
             </Link>
+            <Link
+              to="https://www.facebook.com/mehediScript404"
+              target="_blank"
+              className="bg-littlebg hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+            >
+              <MdEmail />
+            </Link>
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
@@ -93,8 +101,8 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex justify-center w-full items-center mt-3 ">
-        <button className="btn w-full sm:w-full rounded-none hover:text-white text-gray-800 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent">
-           View Portfolio <FaRegHandPointer />
+        <button className="btn w-full sm:w-full rounded-none hover:text-white text-gray-700 duration-300 bg-gray-900 hover:bg-textcl  shadow-none border-transparent">
+           View Portfolio <FaRegHandPointer className="animate__animated animate_pulse" />
         </button>
       </div>
     </section>

@@ -2,13 +2,13 @@ import FuzzyText from './FuzzyText';
 
 const Error = () => {
     return (
-        <div >
+        <div className='min-h-screen flex items-center justify-center'>
             <FuzzyText 
   baseIntensity={0.01} 
   
  
 >
-  Somethings wrong!
+ Whoops! Somethings went wrong!
 </FuzzyText>
         </div>
     );
