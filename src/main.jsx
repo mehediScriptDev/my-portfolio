@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Error from "./Components/Error.jsx";
 import Home from "./Components/Home.jsx";
-import Portfolio from "./Components/Portfolio.jsx";
+import Skills from "./Components/Skills.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,9 +18,9 @@ const router = createBrowserRouter([
     element: <Home></Home>,
     children: [
       {
-        index:true,
-        element: <Portfolio></Portfolio>
-      }
+            index:true,
+            element: <Skills></Skills>
+          }
     ],
   },
 ]);
