@@ -18,7 +18,7 @@ const Banner = () => {
         
         
   <img
-          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl animate-pulse border-gray-500 border-2  object-cover rounded-full"
+          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl animate-fade-loop border-gray-500 border-2  object-cover rounded-full"
           src={image}
           alt="myimage"
         />
