@@ -3,7 +3,7 @@ import GlitchText from './GlitchText';
 const Skills = () => {
   return (
     <div className="min-h-screen">
-      <h1 className="py-2 text-2xl pb-1 font-bold text-white/80 pt-5">Skills</h1>
+      <h1 className="py-2 text-3xl pb-1 font-bold text-[#0118D8] pt-5">Skills</h1>
       <p className='text-xs text-gray-400 pb-4'>I love diving into new tech and sharpening my development skills every day, constantly pushing myself to build better, smarter, and more meaningful digital experiences.</p>
       {/* <GlitchText
   speed={3}

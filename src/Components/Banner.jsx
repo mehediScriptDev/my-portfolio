@@ -93,7 +93,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-textcl shadow-none opacity-85  duration-300 hover:bg-gray-500 text-white border-transparent">
+          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-[#FFDF88] shadow-none opacity-85  duration-300 hover:bg-gray-500 text-maincl border-transparent">
             RESUME <BsDownload />
           </button>
         </div>
