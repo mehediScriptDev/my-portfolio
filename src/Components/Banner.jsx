@@ -18,7 +18,7 @@ const Banner = () => {
         
         
   <img
-          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl animate-fade-loop border-gray-500 border-2  object-cover rounded-full"
+          className="lg:w-52 lg:h-52 dimlight w-40 h-40 hover:border-textcl animate-fade-loop border-gray-500 border-2  object-cover rounded-full"
           src={image}
           alt="myimage"
         />
@@ -98,10 +98,10 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <Link to={'/portfolio'} className="flex animate-pulse justify-center w-full items-center mt-3 ">
+      <Link to={'/portfolio'} className="flex  dimlight justify-center w-full items-center mt-3 ">
         <btn  className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-gray-700 duration-300 bg-gray-900 hover:bg-[#14274E]  shadow-none border-transparent group">
-          <ShinyText text="View Portfolio " disabled={false} speed={3} className='opacity-20 group-hover:opacity-100 transition-opacity font-mont duration-300' />
-          <FaRegHandPointer className="animate-pulse group-hover:text-[16px] duration-200" />
+          <ShinyText text="View Portfolio " disabled={false} speed={3} className='group-hover:opacity-100 transition-opacity font-mont duration-300' />
+          <FaRegHandPointer className="group-hover:text-[16px] duration-200" />
         </btn>
       </Link>
     </section>

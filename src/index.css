@@ -8,3 +8,16 @@ body{
 .active{
     background-color: #1f2937;
 }
+@keyframes dimlight{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.4;
+    }
+}
+
+.dimlight{
+    animation: dimlight 2s ease-in-out infinite;
+    -webkit-animation: dimlight 2s ease-in-out infinite;
+}
