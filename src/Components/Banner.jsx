@@ -18,7 +18,7 @@ const Banner = () => {
         
         
   <img
-          className="lg:w-52 lg:h-52 dimlight w-40 h-40 hover:border-textcl animate-fade-loop border-gray-500 border-2  object-cover rounded-full"
+          className="lg:w-52 lg:h-52 w-40 h-40 hover:border-textcl animate-fade-loop border-gray-500 border-2  object-cover rounded-full"
           src={image}
           alt="myimage"
         />
@@ -93,14 +93,14 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-[#FFDF88] shadow-none opacity-85  duration-300 hover:bg-gray-500 text-maincl border-transparent">
+          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md text-cyan-400 bg-amber-400 hover:border-[#14274E] shadow-none opacity-85  duration-300 hover:bg-maincl hover:border-  border-transparent">
             RESUME <BsDownload />
           </button>
         </div>
       </div>
       <Link to={'/portfolio'} className="flex  dimlight justify-center w-full items-center mt-3 ">
-        <btn  className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-gray-700 duration-300 bg-gray-900 hover:bg-[#14274E]  shadow-none border-transparent group">
-          <ShinyText text="View Portfolio " disabled={false} speed={3} className='group-hover:opacity-100 transition-opacity font-mont duration-300' />
+        <btn  className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-white duration-300  bg-[#14274E]  shadow-none border-transparent group">
+          <p>Enter Portfolio</p>
           <FaRegHandPointer className="group-hover:text-[16px] duration-200" />
         </btn>
       </Link>
