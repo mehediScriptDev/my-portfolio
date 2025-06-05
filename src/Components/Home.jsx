@@ -1,6 +1,6 @@
 import { href, Link, NavLink, Outlet } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
-import mine from "./images/profile1.jpg";
+import mine from "./images/profile1.png";
 import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
@@ -34,7 +34,7 @@ const Home = () => {
             <ul className="menu bg-[#0f172a] text-[18px] font-sans fixed top-1 left-0 bottom-1 text-gray-400 min-h-full w-80 p-4 ">
               <img
                 src={mine}
-                className="w-20 h-20 object-cover rounded-full  mb-5"
+                className="w-20 h-20 object-cover rounded-full border-2 border-textcl mb-5"
                 alt="profile"
               />
               {/* Sidebar content here */}

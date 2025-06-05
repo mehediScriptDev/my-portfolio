@@ -23,8 +23,8 @@ export default {
         
       },
     colors:{
-        maincl: '#0e0f1c',
-        textcl: '#ff0019',
+        maincl: '#1e1f26',
+        textcl: '#0077b5',
       }
     },
   },
