@@ -7,6 +7,8 @@ const Projects = () => {
          
           Projects
         </h1>
+
+        <p>lorem333</p>
         </div>
     );
 };
