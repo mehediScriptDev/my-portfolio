@@ -28,9 +28,9 @@ const Home = () => {
     <ul className="menu bg-[#0f172a] text-gray-400 min-h-full w-80 p-4 ">
     <img src={mine} className="w-20 h-20 object-cover rounded-full border mb-5" alt="profile" />
       {/* Sidebar content here */}
-      <li><NavLink to={'/portfolio'}>Skills</NavLink></li>
-      <li><NavLink to={'/projects'} >Projects</NavLink></li>
-      <li><NavLink to={'/contact'}>Contact</NavLink></li>
+      <li><NavLink to={'/portfolio'} end>Skills</NavLink></li>
+      <li><NavLink to={'/portfolio/projects'} >Projects</NavLink></li>
+      <li><NavLink to={'/portfolio/contact'}>Contact</NavLink></li>
     </ul>
     <p className="fixed bottom-1 left-3 text-gray-300 text-xs">Build with <span className="font-semibold">React && Tailwind</span> </p>
     <a href="https://github.com/mehediScriptDev" target="_blank" className="bottom-1 absolute right-3 hidden lg:block"><FaGithub className=" hover:text" /></a>
