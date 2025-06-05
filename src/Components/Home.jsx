@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="text-white  overflow-hidden bg-maincl ">
       <div className=" flex justify-start w-full h-full">
-        <div className="drawer lg:drawer-open">
+        <div className="drawer sm:drawer-open lg:drawer-open ">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col items-start justify-start">
             {/* Page content here */}
@@ -17,18 +17,21 @@ const Home = () => {
             >
               <HiMenu />
             </label>
-            <div className="w-11/12 mx-auto h-full overflow-y-auto">
-              <Outlet></Outlet>
+            <div className="w-11/12 grid grid-cols-4  mx-auto h-full overflow-y-auto">
+            <div className="lg:col-span-1 hidden sm:block lg:block"></div>
+              <div className="lg:col-span-3  col-span-4">
+            <Outlet></Outlet>
+  </div>  
             </div>
-          </div>
-          <div className="drawer-side absolute h-screen">
+        </div>
+          <div className="drawer-side fixed top-1 left-0 bottom-1 h-screen">
             <label
               htmlFor="my-drawer-2"
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
 
-            <ul className="menu bg-[#0f172a]  text-gray-400 min-h-full w-80 p-4 ">
+            <ul className="menu bg-[#0f172a] fixed top-1 left-0 bottom-1 text-gray-400 min-h-full w-80 p-4 ">
               <img
                 src={mine}
                 className="w-20 h-20 object-cover rounded-full border mb-5"
@@ -50,14 +53,15 @@ const Home = () => {
             <p className="fixed bottom-1 left-3 text-gray-300 text-xs">
               Build with{" "}
               <span className="font-semibold">React && Tailwind</span>{" "}
+              
             </p>
-            <a
+            <p className="bottom-1 z-20 fixed left-72 lg:flex"><a
               href="https://github.com/mehediScriptDev"
               target="_blank"
-              className="bottom-1 absolute right-3 hidden lg:block"
+              
             >
-              <FaGithub className=" hover:text" />
-            </a>
+              <FaGithub className="text-xl " />
+            </a></p>
           </div>
         </div>
       </div>
