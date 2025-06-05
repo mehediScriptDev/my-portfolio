@@ -1,7 +1,17 @@
+import GlitchText from './GlitchText';
+
 const Skills = () => {
   return (
     <div className="min-h-screen">
       <h1 className="py-2 text-2xl pb-3 font-bold text-white/80">Skills</h1>
+      {/* <GlitchText
+  speed={3}
+  enableShadows={true}
+  enableOnHover={false}
+  className='text-xl'
+>
+  Skills
+</GlitchText> */}
       <div className="overflow-y-scroll pb-5">
         <div>
           <p className="font-semibold">Language</p>
