@@ -6,7 +6,7 @@ const Skills = () => {
         <div>
           <p className="font-semibold">Language</p>
           <div className="pt-5">
-            <btn className="lg:py-3 lg:px-8 text-sm flex items-center py-2 px-4 bg-gray-800 text-gray-400 rounded-md">
+            <btn className="lg:py-3 lg:px-8 text-xs py-2 px-4 bg-gray-800 text-gray-400 rounded-md">
               JavaScript(ES6)
             </btn>
           </div>
@@ -44,19 +44,22 @@ const Skills = () => {
               Express
             </btn>
             <btn className="lg:py-3 py-1 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
-              Reactjs
+              JWT
             </btn>
             <btn className="lg:py-3 py-1 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
-              Reactjs
+              Firebase
             </btn>
             <btn className="lg:py-3 py-1 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
               VScode
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
               Git
             </btn>
             <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
-              JavaScript
+              GitHub
+            </btn>
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 bg-gray-800 text-gray-400 text-center rounded-md">
+              Axios
             </btn>
           </div>
         </div>
