@@ -25,10 +25,10 @@ const Banner = () => {
 
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-white text-center text-4xl font-bold hover:text-gray-500">
+        <h1 className="text-white  text-center text-4xl font-bold hover:text-gray-500">
           Mehedi
         </h1>
-        <h1 className="animate__animated animate__swing text-center py-2 text-2xl font-bold text-textcl">
+        <h1 className=" text-center py-2 text-2xl font-bold text-textcl">
           {" "}
           {/* <Wave effectChange={3.0} text="EXAMPLE TEXT" /> */}
           <FuzzyText baseIntensity={0.01}>Junior Frontend Developer</FuzzyText>
@@ -93,14 +93,14 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          <button className="btn btn-md px-5 mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-textcl shadow-none opacity-85 font-semibold duration-300 hover:bg-gray-500 text-white border-transparent">
-            Resume <BsDownload />
+          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md hover:text-white bg-textcl shadow-none opacity-85  duration-300 hover:bg-gray-500 text-white border-transparent">
+            RESUME <BsDownload />
           </button>
         </div>
       </div>
       <Link to={'/portfolio'} className="flex animate-pulse justify-center w-full items-center mt-3 ">
         <btn  className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-gray-700 duration-300 bg-gray-900 hover:bg-[#14274E]  shadow-none border-transparent group">
-          <ShinyText text="View Portfolio " disabled={false} speed={3} className='opacity-20 group-hover:opacity-100 transition-opacity duration-300' />
+          <ShinyText text="View Portfolio " disabled={false} speed={3} className='opacity-20 group-hover:opacity-100 transition-opacity font-mont duration-300' />
           <FaRegHandPointer className="animate-pulse group-hover:text-[16px] duration-200" />
         </btn>
       </Link>

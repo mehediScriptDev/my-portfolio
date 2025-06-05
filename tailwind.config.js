@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+       fontFamily: {
+    inter: ['Inter', 'sans-serif'],
+    mont: ['Montserrat', 'sans-serif'],
+  },
       
       keyframes: {
         shine: {

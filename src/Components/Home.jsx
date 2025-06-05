@@ -13,7 +13,7 @@ const Home = () => {
   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content flex flex-col items-start justify-start">
     {/* Page content here */}
-    <label htmlFor="my-drawer-2" className="btn text-white border-transparent bg-transparent drawer-button lg:hidden">
+    <label htmlFor="my-drawer-2" className="btn text-white shadow-none border-transparent bg-transparent drawer-button lg:hidden">
       <HiMenu />
     </label>
     <div className="w-11/12 mx-auto">
@@ -21,18 +21,19 @@ const Home = () => {
     </div>
   </div>
   <div className="drawer-side ">
-    <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay ">
+    <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay relative">
       
     </label>
     
-    <ul className="menu bg-[#0f172a] text-gray-400 min-h-full w-80 p-4">
+    <ul className="menu bg-[#0f172a] text-gray-400 min-h-full w-80 p-4 ">
     <img src={mine} className="w-20 h-20 object-cover rounded-full border mb-5" alt="profile" />
       {/* Sidebar content here */}
       <li><NavLink to={'/portfolio'}>Skills</NavLink></li>
       <li><NavLink to={'/projects'} >Projects</NavLink></li>
       <li><NavLink to={'/contact'}>Contact</NavLink></li>
     </ul>
-    <p className="fixed bottom-1 left-3 text-gray-300 text-xs">Build with <span className="font-semibold">React && Tailwind</span> <FaGithub /></p>
+    <p className="fixed bottom-1 left-3 text-gray-300 text-xs">Build with <span className="font-semibold">React && Tailwind</span> </p>
+    <a href="https://github.com/mehediScriptDev" target="_blank" className="bottom-1 absolute right-3 hidden lg:block"><FaGithub className=" hover:text" /></a>
     
   </div>
   
