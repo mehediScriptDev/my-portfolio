@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "diploy" : "gh-pages -d dist"
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.2",
