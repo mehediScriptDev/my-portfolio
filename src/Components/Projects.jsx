@@ -46,10 +46,10 @@ const Projects = () => {
   return (
     <section>
         <h1 className="text-3xl font-bold pt-5">Projects</h1>
-        <p className="text-gray-300 pb-3">Always tryna build something cool</p>
+        <p className="text-gray-300 py-3 text-xs">Always tryna build something cool</p>
         <div className="grid gap-8 grid-cols-1 lgl:grid-cols-3 py-4">
       {projects.map((project, index) => (
-        <div key={index} className="bg-gray-900 text-white p-6 rounded-lg shadow-md">
+        <div key={index} className="bg-[#1f2937] text-white p-6 rounded-lg shadow-md">
           <p className="text-sm text-gray-400 mb-2">{project.category}</p>
           <h2 className="text-2xl font-semibold mb-3">{project.title}</h2>
           <p className="text-gray-300 mb-4">{project.description}</p>
@@ -57,7 +57,7 @@ const Projects = () => {
             {project.tags.map((tag, i) => (
               <span
                 key={i}
-                className="bg-[#1f2937] px-3 py-1 rounded-full text-sm"
+                className="bg-gray-900 px-3 py-1 rounded-full text-sm"
               >
                 {tag}
               </span>
