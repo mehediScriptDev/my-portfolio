@@ -3,7 +3,7 @@ import GlitchText from './GlitchText';
 const Skills = () => {
   return (
     <div className="min-h-screen">
-      <h1 className="py-2 text-3xl pb-1 font-bold text-white pt-5">Skills</h1>
+      <h1 className="py-2 text-4xl pb-1 font-bold text-white pt-5">Skills</h1>
       <p className='text-xs text-gray-400 pb-4'>I love diving into new tech and sharpening my development skills every day, constantly pushing myself to build better, smarter, and more meaningful digital experiences.</p>
       {/* <GlitchText
   speed={3}
@@ -16,8 +16,8 @@ const Skills = () => {
       <div className="overflow-y-scroll pb-5">
         <div>
           <p className="font-semibold text-white/80">Language</p>
-          <div className="pt-5">
-            <btn className="lg:py-3 lg:px-8 text-xs py-2 px-4 font-semibold bg-gray-800 text-textcl border-textcl border-2 rounded-md">
+          <div className="pt-3">
+            <btn className="lg:py-3 lg:px-8 text-xs py-2 px-4 font-semibold bg-gray-800 text-white border-gray-900 border-2 rounded-md">
               JavaScript(ES6)
             </btn>
           </div>
@@ -25,13 +25,13 @@ const Skills = () => {
         <div className="pt-6">
           <p className="font-semibold text-white/80">Frontend</p>
           <div className="pt-2 grid grid-cols-4 gap-2">
-            <btn className="lg:py-3 text-textcl border-textcl border-2 py-1 text-xs font-semibold lg:px-8 bg-gray-800  text-center rounded-md">
+            <btn className="lg:py-3 text-white border-gray-900 border-2 py-1 text-xs font-semibold lg:px-8 bg-gray-800  text-center rounded-md">
               Reactjs
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               TailwindCss
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               JavaScript
             </btn>
           </div>
@@ -39,37 +39,37 @@ const Skills = () => {
         <div className="pt-6">
           <p className="font-semibold text-white/80">Tools & Libraries</p>
           <div className="pt-2 grid grid-cols-4 gap-2">
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Reactjs
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               TailwindCss
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               DaisyUI
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Nodejs
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Express
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               JWT
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Firebase
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               VScode
             </btn>
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Git
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               GitHub
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Axios
             </btn>
           </div>
@@ -77,13 +77,13 @@ const Skills = () => {
         <div className="pt-6">
           <p className="font-semibold text-white/80">Backend</p>
           <div className="pt-2 grid grid-cols-4 gap-2">
-            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center justify-center font-semibold lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Nodejs
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Express
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Firebase
             </btn>
           </div>
@@ -91,16 +91,16 @@ const Skills = () => {
         <div className="pt-6">
           <p className="font-semibold text-white/80">Database & Hosting</p>
           <div className="pt-2 grid grid-cols-4 gap-2">
-            <btn className="lg:py-3 py-1 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 py-1 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               MongoDB
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Github Pages
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Netlify
             </btn>
-            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-textcl border-textcl border-2 text-center rounded-md">
+            <btn className="lg:py-3 text-xs flex items-center justify-center lg:px-8 font-semibold bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               Vercel
             </btn>
           </div>
