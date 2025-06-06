@@ -47,7 +47,7 @@ const Banner = () => {
             options={{
               autoStart: true,
               loop: false,
-              delay: 1,
+              delay: 0.6,
               deleteSpeed: 0,
             }}
           />
