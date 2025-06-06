@@ -59,41 +59,41 @@ const Banner = () => {
             <Link
               to="https://github.com/mehediScriptDev"
               target="_blank"
-              className="bg-gray-900 hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+              className="bg-gray-900 hover:text-textcl text-xl text-white duration-200 shadow-md px-3 py-3 rounded-full"
             >
               <FaGithub></FaGithub>
             </Link>
             <Link
               to="https://www.linkedin.com/in/mehedi-mehedi-09a088349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
-              className="bg-gray-900 hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+              className="bg-gray-900 hover:text-textcl text-xl text-white duration-200 shadow-md px-3 py-3 rounded-full"
             >
               <FaLinkedin></FaLinkedin>
             </Link>
             <Link
               to="https://x.com/mehediscript_x"
               target="_blank"
-              className="bg-gray-900 hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+              className="bg-gray-900 hover:text-textcl text-xl text-white duration-200 shadow-md px-3 py-3 rounded-full"
             >
               <FaX></FaX>
             </Link>
             <a
               href="mailto:mehediscriptdev@gmail.com"
-              className="bg-gray-900 hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+              className="bg-gray-900 hover:text-textcl text-xl text-white duration-200 shadow-md px-3 py-3 rounded-full"
             >
               <TbBrandGmail />
             </a>
             <Link
               to="https://www.facebook.com/mehediScript404"
               target="_blank"
-              className="bg-gray-900 hover:text-textcl text-xl text-gray-500 duration-200 shadow-md px-3 py-3 rounded-full"
+              className="bg-gray-900 hover:text-textcl text-xl text-white duration-200 shadow-md px-3 py-3 rounded-full"
             >
               <FaFacebook></FaFacebook>
             </Link>
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md text-maincl bg-textcl hover:border-textcl hover:bg-maincl hover:text-textcl shadow-none opacity-85  duration-300 hover:border- transition-all border-transparent">
+          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md text-white bg-textcl hover:border-textcl hover:bg-maincl hover:text-textcl shadow-none opacity-85  duration-300 hover:border- transition-all border-transparent">
             RESUME <BsDownload />
           </button>
         </div>
