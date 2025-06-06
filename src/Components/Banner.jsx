@@ -25,7 +25,7 @@ const Banner = () => {
 
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-white  text-center text-4xl font-bold hover:text-gray-500">
+        <h1 className="text-textcl  text-center text-4xl font-bold">
           Mehedi
         </h1>
         <h1 className=" text-center py-2 text-2xl font-bold text-textcl">
@@ -98,8 +98,8 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <Link to={'/portfolio'} className="flex  dimlight justify-center w-full items-center mt-3 ">
-        <btn  className="btn w-full sm:w-full rounded-none hover:text-gray-200 text-white duration-300 bg-transparent border-[#22d3ee]  shadow-none border-transparent group">
+      <Link to={'/portfolio'} className="flex dimlight justify-center  items-center mt-3 ">
+        <btn  className="btn w-full sm:w-full rounded-md px-10  hover:text-white hover:bg-textcl text-textcl duration-300 bg-transparent border-textcl border-[1px] shadow-none  group">
           <p>Enter Portfolio</p>
           <FaRegHandPointer className="group-hover:text-[16px] duration-200" />
         </btn>
