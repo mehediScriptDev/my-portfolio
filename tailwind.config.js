@@ -10,6 +10,10 @@ export default {
     inter: ['Inter', 'sans-serif'],
     mont: ['Montserrat', 'sans-serif'],
   },
+  colors:{
+        maincl: '#1e1f26',
+        textcl: '#0077b5',
+      },
       
       keyframes: {
         shine: {
@@ -22,10 +26,7 @@ export default {
         shine: 'shine 5s linear infinite',
         
       },
-    colors:{
-        maincl: '#1e1f26',
-        textcl: '#0077b5',
-      }
+    
     },
   },
   plugins: [
