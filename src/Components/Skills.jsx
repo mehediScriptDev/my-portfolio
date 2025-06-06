@@ -19,7 +19,7 @@ const Skills = () => {
         <div>
           <p className="font-semibold text-white/80">Language</p>
           <div className="pt-3">
-            <btn className="lg:py-3  lg:px-8 text-xs py-2 px-4 font-semibold bg-gray-800 text-white border-gray-900 border-2 rounded-md">
+            <btn className="lg:py-3 lg:px-8 text-xs py-2 px-4 font-semibold bg-gray-800 text-white border-gray-900 border-2 rounded-md">
               JavaScript(ES6) 
             </btn>
           </div>

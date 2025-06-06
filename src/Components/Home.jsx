@@ -17,9 +17,9 @@ const Home = () => {
             >
               <HiMenu className="text-white p-1 rounded-md text-2xl bg-textcl" />
             </label>
-            <div className="w-11/12 grid grid-cols-4  mx-auto h-full overflow-y-auto">
-            <div className="lg:col-span-1 hidden sm:block lg:block"></div>
-              <div className="lg:col-span-3  col-span-4">
+            <div className="w-11/12 grid lg:grid-cols-12 sm:grid-cols-12 xl:grid-cols-12 grid-cols-4 md:grid-cols-7  mx-auto h-full overflow-y-auto">
+            <div className="lg:col-span-4 xl:col-span-3 sm:col-span-4 md:col-span-3 hidden sm:block lg:block"></div>
+              <div className="lg:col-span-8 xl:col-span-9 sm:col-span-8 md:col-span-4 col-span-4">
             <Outlet></Outlet>
   </div>  
             </div>
