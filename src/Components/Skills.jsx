@@ -1,9 +1,11 @@
 import GlitchText from './GlitchText';
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
 
 const Skills = () => {
   return (
     <div className="min-h-screen">
-      <h1 className="py-2 text-4xl pb-1 font-bold text-white pt-5">Skills</h1>
+      <h1 className="py-2 text-4xl pb-1 font-bold text-textcl pt-5">Skills</h1>
       <p className='text-xs text-gray-400 pb-4'>I love diving into new tech and sharpening my development skills every day, constantly pushing myself to build better, smarter, and more meaningful digital experiences.</p>
       {/* <GlitchText
   speed={3}
@@ -17,8 +19,8 @@ const Skills = () => {
         <div>
           <p className="font-semibold text-white/80">Language</p>
           <div className="pt-3">
-            <btn className="lg:py-3 lg:px-8 text-xs py-2 px-4 font-semibold bg-gray-800 text-white border-gray-900 border-2 rounded-md">
-              JavaScript(ES6)
+            <btn className="lg:py-3  lg:px-8 text-xs py-2 px-4 font-semibold bg-gray-800 text-white border-gray-900 border-2 rounded-md">
+              JavaScript(ES6) 
             </btn>
           </div>
         </div>
@@ -26,7 +28,7 @@ const Skills = () => {
           <p className="font-semibold text-white/80">Frontend</p>
           <div className="pt-2 grid grid-cols-4 gap-2">
             <btn className="lg:py-3 text-white border-gray-900 border-2 py-1 text-xs font-semibold lg:px-8 bg-gray-800  text-center rounded-md">
-              Reactjs
+              Reactjs 
             </btn>
             <btn className="lg:py-3 text-xs flex items-center font-semibold justify-center lg:px-8 bg-gray-800 text-white border-gray-900 border-2 text-center rounded-md">
               TailwindCss
