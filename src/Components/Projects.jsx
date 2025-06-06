@@ -1,33 +1,45 @@
 import { FaGithub } from "react-icons/fa";
 
 const projects = [
-  {
-    title: "Complete Store Login",
+    {
+    title: "Gmodex Portfolio",
     description:
-      "A simple and responsive login page built with Firebase authentication and Tailwind CSS.",
-    tags: ["Firebase", "Login", "Responsive", "Tailwind"],
-    github: "https://github.com/mehediScriptDev/Complete-store",
-    live: "https://loginpagelast.web.app/",
+      "An old-style theme. kinda inspired by Mr Robot series dark web sences.. Old style UI design. Feels like real Dark web",
+    tags: ["DarkWeb", "Oldtheme", "React", "Tailwind"],
+    github: "https://github.com/mehediScriptDev/gmodex",
+    live: "https://gmodex-agent07.web.app/",
     category: "Client",
   },
   {
+    title: "Complete Store",
+    description:
+      "A simple and responsive Visa processign site for tourist. First log in then you can see all available visas and choose your dream country.",
+    tags: ["Backend", "Complete", "Responsive", "Tailwind+react"],
+    github: "https://github.com/mehediScriptDev/Complete-store",
+    live: "https://loginpagelast.web.app/",
+    category: "Client-Server",
+  },
+  {
+  "title": "Coffee Store",
+  "tags": ["MERN", "MongoDB", "Node.js", "Express", "React", "Tailwind", "Full-Stack"],
+  "live": "",
+  "github": 
+    
+    "https://github.com/mehediScriptDev/coffe-store-server"
+  ,
+  "description": "A full-stack coffee store management app built with the MERN stack, allowing CRUD operations on coffee items. Includes REST API with MongoDB backend and a responsive React frontend.",
+  category: "Client-Server",
+},
+  {
     title: "Travel Guru",
     description:
-      "A travel destination booking platform featuring route-based navigation and Firebase authentication.",
+      "A travel destination booking platform featuring route-based navigation and Firebase authentication. Just a travel agency UI design. ",
     tags: ["React", "Routing", "Travel App", "Firebase Auth"],
     github: "https://github.com/mehediScriptDev/travel-guru",
     live: "https://simple2-54fd2.firebaseapp.com/",
     category: "Client",
   },
-  {
-    title: "Gmodex Portfolio",
-    description:
-      "An agency-style portfolio showcasing services with a modern, responsive design.",
-    tags: ["Agency", "Portfolio", "React", "Web App"],
-    github: "https://github.com/mehediScriptDev/gmodex",
-    live: "https://gmodex-agent07.web.app/",
-    category: "Client",
-  },
+  
 ];
 
 const Projects = () => {
