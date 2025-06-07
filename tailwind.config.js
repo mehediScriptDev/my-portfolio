@@ -13,6 +13,10 @@ export default {
   colors:{
         maincl: '#1e1f26',
         textcl: '#0077b5',
+        primary: '#081b29',
+        secondary: '#112e42',
+        textColor: '#ededed',
+        anotherbg: '#00abf0',
       },
       
       keyframes: {

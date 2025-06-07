@@ -30,9 +30,9 @@ const showhide = ()=>{
   setHidd(!hidd)
 }
   return (
-    <section className='bg-maincl min-h-screen'>
+    <section className='bg-primary min-h-screen'>
      <div>
-       <section className={`pt-1 ${hidd? 'hidden':'block'} min-h-screen  pb-2 bg-maincl overflow-hidden flex flex-col justify-center items-center`}>
+       <section className={`pt-1 ${hidd? 'hidden':'block'} min-h-screen  pb-2 bg-primary overflow-hidden flex flex-col justify-center items-center`}>
       <div className="flex justify-center py-9 lg:py-3 items-center">
         
         
@@ -44,7 +44,7 @@ const showhide = ()=>{
 
       </div>
       <div className="space-y-1 w-11/12 mx-auto flex flex-col justify-center items-center">
-        <h1 className="text-textcl  text-center text-4xl font-bold">
+        <h1 className="text-anotherbg  text-center text-4xl font-bold">
           Mehedi
         </h1>
         <h1 className=" text-center py-2 text-2xl font-bold text-textcl">
@@ -112,7 +112,7 @@ const showhide = ()=>{
           </div>
         </div>
         <div className="flex justify-center items-center mt-1">
-          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md text-white bg-textcl hover:border-textcl hover:bg-maincl hover:text-textcl shadow-none opacity-85  duration-300 hover:border- transition-all border-transparent">
+          <button className="btn btn-md px-5 font-mont font-medium mb-3 sm:mb-0 lg:mb-0 rounded-md  hover:border-textcl bg-anotherbg text-primary shadow-none opacity-85  duration-300 hover:border- transition-all border-transparent">
             RESUME <BsDownload />
           </button>
         </div>
