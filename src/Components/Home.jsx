@@ -39,15 +39,15 @@ const Home = () => {
               />
               {/* Sidebar content here */}
               <li>
-                <NavLink to={"/portfolio"} end>
+                <NavLink to={"/"} end>
                   Skills
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/portfolio/projects"}>Projects</NavLink>
+                <NavLink to={"/projects"}>Projects</NavLink>
               </li>
               <li>
-                <NavLink to={"/portfolio/contact"}>Contact</NavLink>
+                <NavLink to={"/contact"}>Contact</NavLink>
               </li>
             </ul>
             <p className="fixed bottom-1 left-3 text-gray-300 text-xs">
