@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="text-white  overflow-hidden bg-maincl ">
+    <div className="text-white  overflow-hidden bg-primary ">
       <div className=" flex justify-start w-full h-full">
         <div className="drawer sm:drawer-open lg:drawer-open ">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
@@ -31,7 +31,7 @@ const Home = () => {
               className="drawer-overlay"
             ></label>
 
-            <ul className="menu bg-gray-900  text-[18px] font-sans fixed top-1 left-0 bottom-1 text-gray-400 min-h-full w-80 p-4 ">
+            <ul className="menu bg-secondary  text-[18px] font-sans fixed top-1 left-0 bottom-1 text-gray-400 min-h-full w-80 p-4 ">
               <img
                 src={mine}
                 className="w-20 h-20 object-cover rounded-full border-2 border-textcl mb-5"

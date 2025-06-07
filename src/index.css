@@ -6,7 +6,8 @@ body{
     background-color: #081b29;
 }
 .active{
-    background-color: #1f2937;
+    background-color: #081b29;
+    color: #00abf0;
 }
 @keyframes dimlight{
     0%,100%{
