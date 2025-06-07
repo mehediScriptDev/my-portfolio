@@ -45,11 +45,11 @@ const projects = [
 const Projects = () => {
   return (
     <section>
-        <h1 className="text-3xl font-bold pt-5">Projects</h1>
+        <h1 className="text-3xl font-bold pt-5 text-anotherbg">Projects</h1>
         <p className="text-gray-300 py-3 text-xs">Always tryna build something cool</p>
         <div className="grid gap-8 grid-cols-1 lgl:grid-cols-3 py-4">
       {projects.map((project, index) => (
-        <div key={index} className="bg-[#1f2937] text-white p-6 rounded-lg shadow-md">
+        <div key={index} className="bg-secondary text-white p-6 rounded-lg shadow-md">
           <p className="text-sm text-gray-400 mb-2">{project.category}</p>
           <h2 className="text-2xl font-semibold mb-3">{project.title}</h2>
           <p className="text-gray-300 mb-4">{project.description}</p>
@@ -68,7 +68,7 @@ const Projects = () => {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-textcl flex justify-center items-center gap-1 hover:bg-transparent hover:border-[1px] hover:border-textcl text-white font-medium px-4 py-2 rounded-md transition"
+              className="bg-anotherbg flex justify-center items-center gap-1 hover:bg-transparent hover:border-[1px] hover:border-anotherbg text-white font-medium px-4 py-2 rounded-md transition"
             >
              <FaGithub /> GitHub
             </a>

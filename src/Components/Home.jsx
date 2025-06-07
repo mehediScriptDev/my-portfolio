@@ -15,7 +15,7 @@ const Home = () => {
               htmlFor="my-drawer-2"
               className="btn text-white shadow-none border-transparent bg-transparent drawer-button lg:hidden"
             >
-              <HiMenu className="text-white p-1 rounded-md text-2xl bg-textcl" />
+              <HiMenu className="text-white p-1 rounded-md text-2xl bg-anotherbg" />
             </label>
             <div className="w-11/12 grid lg:grid-cols-12 sm:grid-cols-12 xl:grid-cols-12 grid-cols-4 md:grid-cols-7  mx-auto h-full overflow-y-auto">
             <div className="lg:col-span-4 xl:col-span-3 sm:col-span-4 md:col-span-3 hidden sm:block lg:block"></div>
